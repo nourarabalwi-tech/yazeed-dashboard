@@ -26,6 +26,11 @@ st.set_page_config(
     .kpi-card ul li {
         color: #F8FAFC !important;
         font-size: 1rem;
+    }
+
+    .kpi-card ul li {
+        color: #F8FAFC !important;
+        font-size: 1rem;
 }
     
     /* Header Container */
