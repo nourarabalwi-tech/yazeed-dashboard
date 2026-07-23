@@ -14,15 +14,19 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for Dark & Gold Executive Style
-st.markdown("""
-<style>
-    /* Dark Theme Setup */
-    .main {
-        background-color: #0F172A;
-        color: #F8FAFC;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Custom Card Style */
+    .kpi-card {
+        background-color: #1E293B;
+        border-left: 4px solid #D4AF37;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        color: #F8FAFC !important;
     }
+    .kpi-card ul li {
+        color: #F8FAFC !important;
+        font-size: 1rem;
+}
     
     /* Header Container */
     .header-box {
